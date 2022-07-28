@@ -1,0 +1,95 @@
+/* colors
+#F8ECD1
+#DEB6AB
+#AC7D88
+#85586F */
+
+body {
+    background-color: #fdf9ef;
+    font-family: 'Inconsolata', monospace;
+}
+html {
+    box-sizing: border-box;
+    font-size: 50%;
+}
+
+#my-timer{
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    color: #AC7D88;
+}
+
+.dial {
+    height: 42rem;
+    width: 42rem;
+}
+
+.timer {
+    margin:5% 5% 0 5%;
+    position: relative;
+    display: inline-block; 
+}
+
+.icon {
+    font: normal normal normal 3rem/1 FontAwesome;
+    color: #85586F;
+}
+
+.timer input {
+    display: block;
+    border: none;
+    width: 20rem;
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 6rem;
+    background-color: #fdf9ef;
+}
+
+.timer button {
+    border: none;   
+    cursor: pointer;
+    background-color: #fdf9ef;
+}
+
+.timer button:focus {
+    outline: none;
+}
+
+.timer input:focus {
+    outline: none;
+}
+
+.controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* 
+@media (max-width:720px){
+    h1{
+        font-size: 3rem;
+    }
+    
+    .dial {
+        height: 200px;
+        width: 200px;
+    }
+
+    .timer input {
+        width: 120px;
+        font-size: 45px;
+    }
+
+    .icon {
+        font: 1.5rem;
+    }
+} */
