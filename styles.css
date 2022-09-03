@@ -76,3 +76,8 @@ h1{
     justify-content: center;
 }
 
+@media only screen and (max-width: 550px){
+    .timer {
+        margin: auto;
+    }
+}
