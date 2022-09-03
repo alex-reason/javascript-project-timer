@@ -24,8 +24,8 @@ h1{
 }
 
 .dial {
-    height: 42rem;
-    width: 42rem;
+    height: 45rem;
+    width: 45rem;
     z-index: 5;
 }
 
@@ -46,7 +46,7 @@ h1{
     width: 15rem;
     font-size: 8rem;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 3rem;
     background-color: #fdf9ef;
 }
 
@@ -66,8 +66,8 @@ h1{
 
 .controls {
     position: absolute;
-    top: -2rem;
-    left:0;
+    top: -5rem;
+    left: -2rem;
     right: 0;
     bottom: 0;
     /* display: flex;
@@ -82,9 +82,8 @@ h1{
 }
 
 /* @media only screen and (max-width: 550px){
-
     .controls {
         top: -5rem;
-        left:-2rem;
+        left: -2rem;
     }
 } */
