@@ -1,9 +1,3 @@
-/* colors
-#F8ECD1
-#DEB6AB
-#AC7D88
-#85586F */
-
 body {
     background-color: #fdf9ef;
     font-family: 'Inconsolata', monospace;
@@ -80,10 +74,3 @@ h1{
     align-content: center;
     justify-content: center;
 }
-
-/* @media only screen and (max-width: 550px){
-    .controls {
-        top: -5rem;
-        left: -2rem;
-    }
-} */
