@@ -43,7 +43,7 @@ h1{
 .timer input {
     display: block;
     border: none;
-    width: 20rem;
+    width: 15rem;
     font-size: 8rem;
     text-align: center;
     margin-top: 6rem;
@@ -66,7 +66,7 @@ h1{
 
 .controls {
     position: absolute;
-    top: -5rem;
+    top: -2rem;
     left:0;
     right: 0;
     bottom: 0;
@@ -81,10 +81,10 @@ h1{
     justify-content: center;
 }
 
-@media only screen and (max-width: 550px){
+/* @media only screen and (max-width: 550px){
 
     .controls {
         top: -5rem;
         left:-2rem;
     }
-}
+} */
