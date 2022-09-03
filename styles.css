@@ -25,6 +25,7 @@ h1{
 .dial {
     height: 42rem;
     width: 42rem;
+    z-index: 5;
 }
 
 .timer {
@@ -73,23 +74,10 @@ h1{
     align-items: center;
     flex-direction: column;
 }
-/* 
-@media only screen and (max-width:720px){
-    h1{
-        font-size: 3rem;
-    }
-    
-    .dial {
-        height: 200px;
-        width: 200px;
-    }
 
-    .timer input {
-        width: 120px;
-        font-size: 45px;
-    }
+@media only screen and (max-width: 500px) {
+    top: -5rem;
+    left: -2rem;
+}
 
-    .icon {
-        font: 1.5rem;
-    }
-} */
+
